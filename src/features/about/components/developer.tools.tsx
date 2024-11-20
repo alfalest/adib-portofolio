@@ -1,9 +1,18 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGitAlt, FaGithub } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 
 const tools = [
   {
     name: "GitHub",
     icon: <FaGithub className="text-gray-800 dark:text-gray-300" />,
+  },
+  {
+    name: "Git",
+    icon: <FaGitAlt className="text-orange-500 dark:text-orange-500" />,
+  },
+  {
+    name: "VSCode",
+    icon: <VscVscode className="text-sky-500 dark:text-sky-600" />,
   },
   // Add more tools here if needed
 ];

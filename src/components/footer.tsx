@@ -2,7 +2,7 @@ import NavLink from "./menu";
 
 export default function Footer() {
   const getYear = () => new Date().getFullYear();
-  const name = "Singgih Septian Nugraha";
+  const name = "Muhammad Adib Alfaini Afifi";
   return (
     <section className="border-t border-gray-200 dark:border-gray-700">
       <div className="container mx-auto max-w-4xl px-2">

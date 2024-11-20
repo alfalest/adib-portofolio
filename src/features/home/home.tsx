@@ -6,12 +6,13 @@ export default function Home() {
   return (
     <div>
       <Hero
-        title="Singgih"
-        jobTitle="Frontend Developer"
-        subtitle="Frontend developer, lifelong learner, and an 8-5 tech worker in the office. When I'm away from the keyboard, I'm diving into anime worlds!"
+        title="Adib Alfaini"
+        jobTitle="Full Stack Developer"
+        subtitle="Full Stack Developer, lifelong learner, and an 8-5 tech worker in the office."
         socialLinks={{
-          github: "https://github.com/singgihseptiann",
-          linkedin: "https://www.linkedin.com/in/singgihseptian/",
+          github: "https://github.com/alfalest",
+          linkedin: "https://www.linkedin.com/in/adibalfaini/",
+          instagram: "https://www.instagram.com/justalfaini/",
         }}
       />
 

@@ -1,17 +1,23 @@
-import { FaReact } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaLaravel } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 import {
-  SiTypescript,
   SiTailwindcss,
   SiJavascript,
   SiBootstrap,
+  SiNestjs,
+  SiPhp,
 } from "react-icons/si";
 
 const techStack = [
-  { name: "React", icon: <FaReact className="text-blue-500" /> },
+  { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
   { name: "JavaScript", icon: <SiJavascript className="text-yellow-500" /> },
-  { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
-  { name: "Bootstrap", icon: <SiBootstrap className="text-purple-400" /> },
+  { name: "Laravel", icon: <FaLaravel className="text-red-600" /> },
+  { name: "NestJS", icon: <SiNestjs className="text-red-600" /> },
+  { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
+  { name: "PostGreSQL", icon: <BiLogoPostgresql className="text-blue-700" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
+  { name: "Bootstrap", icon: <SiBootstrap className="text-purple-400" /> },
 ];
 
 export default function TechStack() {

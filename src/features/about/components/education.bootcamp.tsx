@@ -4,37 +4,36 @@ import React from "react";
 
 const EducationAndBootcamps: React.FC = () => {
   const formalEducation = {
-    university: "University of Technology Yogyakarta",
-    gpa: 3.08,
-    program: "Bachelor's Degree in Information Systems",
+    university: "University of Indonesia",
+    gpa: 3.35,
+    program: "Associate's Degree in Informatics Engineering",
     startDateCollege: "September 2018",
-    endDateCollege: "Agustus 2023",
+    endDateCollege: "Agustus 2021",
   };
 
   const bootcamps = [
     {
-      name: "Frontend Engineer (Binar Academy)",
-      startDate: "July 2023",
-      endDate: "November 2023",
-      learnedSkills: ["React", "JavaScript", "Bootstrap", "Redux", "Github"],
+      name: "DNIIT Software Engineering - Java Technologies",
+      startDate: "September 2021",
+      endDate: "N/A",
+      learnedSkills: ["Java", "Springboot", "Hibernate", "Server Faces"],
       certificateLink:
-        "https://drive.google.com/drive/folders/190OchgJiKdHdq-3hjEM5u-SgXvEvgy8u?usp=sharing",
+        "#",
     },
     {
-      name: "Fullstack MERN Bootcamp (Devscale.id) ",
-      startDate: "July 2024",
-      endDate: "October 2024",
+      name: "Professional Programme",
+      startDate: "September 2021",
+      endDate: "N/A",
       learnedSkills: [
-        "TypeScript",
-        "React",
-        "Tanstack Query",
-        "Tailwind CSS",
-        "MongoDB",
-        "Express",
-        "Docker",
+        "Java",
+        "Springboot",
+        "Hibernate",
+        "Algorithms",
+        "Database Query",
+        "Server Faces",
       ],
       certificateLink:
-        "https://drive.google.com/drive/folders/1aBfmXrGo6LbBQnhwjXgH9zoRzOGs5V1Y?usp=sharing",
+        "https://drive.google.com/file/d/1fT0OmEjZ3VAeRXa6zzhflSE83c-kUdE7/view?usp=sharing",
     },
   ];
 

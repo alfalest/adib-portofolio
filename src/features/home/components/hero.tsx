@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
+import { RiInstagramFill } from "react-icons/ri";
 
 interface HeroProps {
   title?: string;
@@ -8,7 +9,7 @@ interface HeroProps {
   jobTitle?: string;
   socialLinks?: {
     github?: string;
-
+    instagram?: string;
     linkedin?: string;
   };
 }
@@ -32,9 +33,9 @@ const Hero: React.FC<HeroProps> = ({
   jobTitle = "Software Engineer",
   subtitle = "I'm a Frontend Developer",
   socialLinks = {
-    github: "https://github.com/andresgarrido",
-    instagram: "https://instagram.com/yourprofile",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    github: "https://github.com/alfalest",
+    instagram: "https://instagram.com/justalfaini",
+    linkedin: "https://linkedin.com/in/adibalfaini",
   },
 }) => {
   return (
@@ -57,6 +58,9 @@ const Hero: React.FC<HeroProps> = ({
         )}
         {socialLinks.linkedin && (
           <SocialIcon href={socialLinks.linkedin} Icon={FaLinkedin} />
+        )}
+        {socialLinks.instagram && (
+          <SocialIcon href={socialLinks.instagram} Icon={RiInstagramFill} />
         )}
       </div>
     </div>
