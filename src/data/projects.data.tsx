@@ -2,9 +2,11 @@ import { DiBootstrap, DiCodeigniter } from "react-icons/di";
 import { BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi";
 import { SiInertia } from "react-icons/si";
 import { ReactNode } from "react";
-import Bcr from "@/assets/projects/coverrr.png";
+import JsfSupplyChain from "@/assets/projects/JsfSupplyChain.png";
+import Sipdesa from "@/assets/projects/Sipdesa.png";
 import Ssayomart from "@/assets/projects/Ssayomart.png";
-import SeekYourJob from "@/assets/projects/seekyourjob.png";
+import SsayomartCp from "@/assets/projects/SsayomartCp.png";
+import Boga from "@/assets/projects/Boga.png";
 import {
   SiCodeigniter,
   SiJquery,
@@ -59,17 +61,40 @@ const techStack3: TechStackIcon[] = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
 ];
 
+const techStack4: TechStackIcon[] = [
+  { name: "CodeIgniter", icon: <SiCodeigniter className="text-red-600" /> },
+  { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
+  { name: "jQuery", icon: <SiJquery className="text-blue-500" /> },
+  { name: "Bootstrap", icon: <DiBootstrap className="text-purple-500" /> },
+  {
+    name: "JavaScript",
+    icon: <BiLogoJavascript className="text-yellow-600" />,
+  },
+  { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+];
+
+const techStack5: TechStackIcon[] = [
+  { name: "Bootstrap", icon: <DiBootstrap className="text-purple-500" /> },
+  {
+    name: "JavaScript",
+    icon: <BiLogoJavascript className="text-yellow-600" />,
+  },
+  { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+];
+
 // Array of projects
 export const projects: Project[] = [
   {
-    title: "Sipdesa",
+    title: "JSF Supply Chain Management",
     description:
-      "Community service application that is very useful to facilitate the process of administrative services in the village in digital form",
-    img: SeekYourJob,
-    techStack: techStack3,
-    portfolioUrl: "https://seekyourjob.my.id/",
+      "An application to manage incoming stock by invoices and delivery notes sent from suppliers, supplier and customer contact databases, production recipe planning, production weighing by taking data from production recipes and then multiplying it by the units to be produced, calculating waste production and waste packing.",
+    img: JsfSupplyChain,
+    techStack: techStack1,
+    portfolioUrl: "https://jsf-supplychain.cloud",
     githubUrl:
-      "#",
+      "https://github.com/alfalest/javasuperfood-supply-chain",
   },
   {
     title: "Ssayomart",
@@ -78,17 +103,37 @@ export const projects: Project[] = [
     img: Ssayomart,
     techStack: techStack2,
     portfolioUrl: "https://ssayomart.com/",
+    githubUrl: "https://github.com/alfalest/ssayomart",
   },
   {
-    title: "Java Super Food Supply Chain Management",
+    title: "Sipdesa",
     description:
-      "An application to manage incoming stock by invoices and delivery notes sent from suppliers, supplier and customer contact databases, production recipe planning, production weighing by taking data from production recipes and then multiplying it by the units to be produced, calculating waste production and waste packing.",
-    img: Bcr,
-    techStack: techStack1,
-    portfolioUrl: "https://jsf-supplychain.coud",
+      "Community service application that is very useful to facilitate the process of administrative services in the village in digital form",
+    img: Sipdesa,
+    techStack: techStack3,
+    portfolioUrl: "https://drive.google.com/file/d/1sNmpmpW1pcSkqMDV_yBiKQuP-pq27J7h/view?usp=drive_link",
     githubUrl:
-      "#",
+      "https://github.com/alfalest/system-village-integration",
   },
-
+  {
+    title: "Ssayomart Company Profile",
+    description:
+      "Ssayomart is an e-commerce project, which was my first professional project as a Frontend Developer. I worked on an existing project, focusing on improving its responsiveness, particularly ensuring a seamless mobile experience for users. If you're viewing it on a large screen and want to switch to mobile view, please refresh the browser for a better experience.",
+    img: SsayomartCp,
+    techStack: techStack4,
+    portfolioUrl: "https://ssayomart.com",
+    githubUrl:
+      "https://github.com/alfalest/ssayomart-company-profile",
+  },
+  {
+    title: "Boga Eterna Company Profile",
+    description:
+      "An company profile for PT Boga Eterna Sentosa",
+    img: Boga,
+    techStack: techStack5,
+    portfolioUrl: "#",
+    githubUrl:
+      "https://github.com/alfalest/boga-eterna-sentosa",
+  },
   // Add more projects as needed
 ];

@@ -51,7 +51,7 @@ const Education: React.FC<EducationProps> = ({
       {/* Bootcamps */}
       <div className="mt-6">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
-          Bootcamps
+          Certificate
         </h2>
         {bootcamps.map((bootcamp, index) => (
           <Bootcamp key={index} {...bootcamp} />

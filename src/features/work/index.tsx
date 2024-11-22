@@ -5,7 +5,7 @@ const ExperienceSection = () => {
   const workExperiences = [
     {
       company: "PT Dessa Integrasi Globalindo",
-      title: "Web Developer",
+      title: "Staff - Web Developer",
       date: "Jan 2021 - Dec 2021",
       icon: (
         <BriefcaseBusiness className="h-6 w-6 text-gray-500 dark:text-white" />
@@ -13,7 +13,7 @@ const ExperienceSection = () => {
     },
     {
       company: "CV Berdaring Indonesia",
-      title: "Full Stack Developer",
+      title: "Staff - Full Stack Developer",
       date: "Jan 2022 - Feb 2023",
       location: "Hybrid",
       icon: (
@@ -22,7 +22,7 @@ const ExperienceSection = () => {
     },
     {
       company: "PT Latifah Medika Alkesindo",
-      title: "IT Support",
+      title: "Staff - IT Support",
       date: "Feb 2023 - July 2023",
       icon: (
         <BriefcaseBusiness className="h-6 w-6 text-gray-500 dark:text-white" />
@@ -30,7 +30,7 @@ const ExperienceSection = () => {
     },
     {
       company: "PT Aneka Dasuib Jaya",
-      title: "Full Stack Developer",
+      title: "Technical Lead - Full Stack Developer",
       date: "Aug 2023 - Present",
       icon: (
         <BriefcaseBusiness className="h-6 w-6 text-gray-500 dark:text-white" />

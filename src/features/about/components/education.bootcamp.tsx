@@ -8,7 +8,7 @@ const EducationAndBootcamps: React.FC = () => {
     gpa: 3.35,
     program: "Associate's Degree in Informatics Engineering",
     startDateCollege: "September 2018",
-    endDateCollege: "Agustus 2021",
+    endDateCollege: "August 2021",
   };
 
   const bootcamps = [
