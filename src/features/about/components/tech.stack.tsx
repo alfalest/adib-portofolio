@@ -7,12 +7,14 @@ import {
   SiBootstrap,
   SiNestjs,
   SiPhp,
+  SiCodeigniter,
 } from "react-icons/si";
 
 const techStack = [
   { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
   { name: "JavaScript", icon: <SiJavascript className="text-yellow-500" /> },
   { name: "Laravel", icon: <FaLaravel className="text-red-600" /> },
+  { name: "CodeIgniter", icon: <SiCodeigniter className="text-red-600" /> },
   { name: "NestJS", icon: <SiNestjs className="text-red-600" /> },
   { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
   { name: "PostGreSQL", icon: <BiLogoPostgresql className="text-blue-700" /> },

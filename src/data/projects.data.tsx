@@ -7,12 +7,14 @@ import Sipdesa from "@/assets/projects/Sipdesa.png";
 import Ssayomart from "@/assets/projects/Ssayomart.png";
 import SsayomartCp from "@/assets/projects/SsayomartCp.png";
 import Boga from "@/assets/projects/Boga.png";
+import Alhijaz from "@/assets/projects/Alhijaz.png";
 import {
   SiCodeigniter,
   SiJquery,
   SiPhp,
 } from "react-icons/si";
 import { FaCss3Alt, FaHtml5, FaLaravel, FaReact } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 
 // Define the type for the tech stack icon
 interface TechStackIcon {
@@ -33,19 +35,29 @@ interface Project {
 // Define tech stack for each project
 const techStack1: TechStackIcon[] = [
   { name: "Laravel", icon: <FaLaravel className="text-red-600" /> },
+  { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
   { name: "IntertiaJS", icon: <SiInertia className="text-violet-700" /> },
+  {
+    name: "JavaScript",
+    icon: <BiLogoJavascript className="text-yellow-600" />,
+  },
   { name: "ReactJS", icon: <FaReact className="text-blue-600" /> },
   { name: "Tailwind CSS", icon: <DiBootstrap className="text-purple-500" /> },
   { name: "PostGreSQL", icon: <BiLogoPostgresql className="text-blue-700" /> },
 ];
 
 const techStack2: TechStackIcon[] = [
-  { name: "Bootstrap", icon: <DiBootstrap className="text-purple-500" /> },
   { name: "CodeIgniter", icon: <DiCodeigniter className="text-red-600" /> },
+  { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
+  { name: "jQuery", icon: <SiJquery className="text-blue-500" /> },
   {
     name: "JavaScript",
     icon: <BiLogoJavascript className="text-yellow-600" />,
   },
+  { name: "Bootstrap", icon: <DiBootstrap className="text-purple-500" /> },
+  { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+  { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
 ];
 
 const techStack3: TechStackIcon[] = [
@@ -59,6 +71,8 @@ const techStack3: TechStackIcon[] = [
   },
   { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+  { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
+
 ];
 
 const techStack4: TechStackIcon[] = [
@@ -84,12 +98,22 @@ const techStack5: TechStackIcon[] = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
 ];
 
+const techStack6: TechStackIcon[] = [
+  { name: "Bootstrap", icon: <DiBootstrap className="text-purple-500" /> },
+  {
+    name: "JavaScript",
+    icon: <BiLogoJavascript className="text-yellow-600" />,
+  },
+  { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+];
+
 // Array of projects
 export const projects: Project[] = [
   {
     title: "JSF Supply Chain Management",
     description:
-      "An application to manage incoming stock by invoices and delivery notes sent from suppliers, supplier and customer contact databases, production recipe planning, production weighing by taking data from production recipes and then multiplying it by the units to be produced, calculating waste production and waste packing.",
+      "Developed an application for stock management, supplier and customer databases, production recipe planning, weighing, waste calculation, and ERP integration. Responsibilities included flowcharts, database design, ERD, API creation, and core features like Weighing, Invoices, and Delivery Notes. I also lead this project as Technical Lead",
     img: JsfSupplyChain,
     techStack: techStack1,
     portfolioUrl: "https://jsf-supplychain.cloud",
@@ -97,9 +121,9 @@ export const projects: Project[] = [
       "https://github.com/alfalest/javasuperfood-supply-chain",
   },
   {
-    title: "Ssayomart",
+    title: "Ssayomart App",
     description:
-      "Ssayomart is an e-commerce project, which was my first professional project as a Frontend Developer. I worked on an existing project, focusing on improving its responsiveness, particularly ensuring a seamless mobile experience for users. If you're viewing it on a large screen and want to switch to mobile view, please refresh the browser for a better experience.",
+      "An e-commerce application for purchasing foodstuffs, snacks, drinks and Korean sauces without a third party as a seller.This web- based e - commerce application was created using the Codeigniter 4 framework and the PHP programming language.",
     img: Ssayomart,
     techStack: techStack2,
     portfolioUrl: "https://ssayomart.com/",
@@ -108,7 +132,7 @@ export const projects: Project[] = [
   {
     title: "Sipdesa",
     description:
-      "Community service application that is very useful to facilitate the process of administrative services in the village in digital form",
+      "An community service application that is very useful to facilitate the process of administrative services in the village in digital form",
     img: Sipdesa,
     techStack: techStack3,
     portfolioUrl: "https://drive.google.com/file/d/1sNmpmpW1pcSkqMDV_yBiKQuP-pq27J7h/view?usp=drive_link",
@@ -118,7 +142,7 @@ export const projects: Project[] = [
   {
     title: "Ssayomart Company Profile",
     description:
-      "Ssayomart is an e-commerce project, which was my first professional project as a Frontend Developer. I worked on an existing project, focusing on improving its responsiveness, particularly ensuring a seamless mobile experience for users. If you're viewing it on a large screen and want to switch to mobile view, please refresh the browser for a better experience.",
+      "Ssayomart is an e-commerce project. I worked on an existing project, focusing on improving its responsiveness, particularly ensuring a seamless mobile experience for users. If you're viewing it on a large screen and want to switch to mobile view, please refresh the browser for a better experience.",
     img: SsayomartCp,
     techStack: techStack4,
     portfolioUrl: "https://ssayomart.com",
@@ -134,6 +158,16 @@ export const projects: Project[] = [
     portfolioUrl: "#",
     githubUrl:
       "https://github.com/alfalest/boga-eterna-sentosa",
+  },
+  {
+    title: "Al-Hijaz Company Profile",
+    description:
+      "An company profile for Al Hijaz umroh & hajj consultant",
+    img: Alhijaz,
+    techStack: techStack6,
+    portfolioUrl: "https://daftarumrohberkah.com",
+    githubUrl:
+      "https://github.com/alfalest/alhijaz-company-profile",
   },
   // Add more projects as needed
 ];
