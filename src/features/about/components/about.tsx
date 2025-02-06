@@ -1,5 +1,5 @@
 import TitleSection from "@/components/title.section";
-// import gintoki from "@/assets/about/gintoki.png";
+import adib from "@/assets/about/adib.png";
 import { SiReaddotcv } from "react-icons/si";
 
 const About: React.FC = () => {
@@ -25,11 +25,11 @@ const About: React.FC = () => {
           </div>
         </a>
       </div>
-      {/* <img
-        src={gintoki}
+      <img
+        src={adib}
         alt="Descriptive Alt Text"
         className="mb-4 h-auto w-full md:mb-0 md:w-1/3"
-      /> */}
+      />
     </div>
   );
 };
