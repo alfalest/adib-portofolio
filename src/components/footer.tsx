@@ -8,9 +8,9 @@ export default function Footer() {
       <div className="container mx-auto max-w-4xl px-2">
         <div className="flex flex-col items-center justify-between gap-5 py-6 md:flex-row md:gap-0">
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-            <NavLink to="/about">About </NavLink>
-            <NavLink to="/products">Projects</NavLink>
             <NavLink to="/">Home</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/about">About </NavLink>
           </div>
           <div className="font-mono text-sm font-medium text-zinc-800 dark:text-zinc-200">
             © {getYear()} {name}
