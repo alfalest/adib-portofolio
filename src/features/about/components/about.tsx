@@ -11,18 +11,11 @@ const About: React.FC = () => {
           Muhammad Adib Alfaini Afifi
         </h1>
         <p className="mt-2 text-gray-600 dark:text-gray-400">
-          I am a dedicated Web Developer specializing in full-stack development, adept at utilizing
-          Codeigniter 4, PHP, and Laravel to build powerful web applications. My expertise extends to
-          crafting dynamic user interfaces with HTML, CSS, JavaScript, Bootstrap, ReactJS, and VueJS. I
-          have a proven track record of delivering successful e-commerce platforms and service system
-          applications, ensuring seamless API integration and secure payment systems. With a
-          background in IT support, I excel in maintaining and troubleshooting complex systems. As a
-          continuous learner, I stay ahead of industry trends to provide innovative and high-quality web
-          solutions.
+          Hi there! I'm a Full Stack Developer with a passion for building high quality, user centric applications. I'm proficient in a range of modern frameworks like Laravel, Codeigniter, Express JS, Nest JS, Vue JS, and React JS, and possess strong front-end and back-end development skills. I'm always eager to learn and contribute to innovative projects. Feel free to connect!
         </p>
         <a
           className="mt-2 inline-flex text-gray-600 underline hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
-          href="https://drive.google.com/file/d/1Hc2zOxEC-7zbyWPhmtX6YB5NRmehkMZu/view?usp=sharing"
+          href="https://drive.google.com/file/d/1UuLb7U2M8PtKjFFr42Dbo_NMzHVtEV9h/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

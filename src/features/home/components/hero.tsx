@@ -29,9 +29,9 @@ const SocialIcon: React.FC<{ href: string; Icon: React.ElementType }> = ({
 );
 
 const Hero: React.FC<HeroProps> = ({
-  title = "Frontend Developer",
-  jobTitle = "Software Engineer",
-  subtitle = "I'm a Frontend Developer",
+  title = "Full Stack Developer",
+  jobTitle = "Full Stack Developer",
+  subtitle = "I'm a Full Stack Developer",
   socialLinks = {
     github: "https://github.com/alfalest",
     instagram: "https://instagram.com/justalfaini",
