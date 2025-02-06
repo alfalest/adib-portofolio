@@ -5,7 +5,7 @@ const ExperienceSection = () => {
   const workExperiences = [
     {
       company: "PT Elixer Reka Digita",
-      title: "Staff - Full Stack Developer",
+      title: "Full Stack Developer",
       date: "Dec 2024 - Present",
       location: "Hybrid",
       icon: (
@@ -14,7 +14,7 @@ const ExperienceSection = () => {
     },
     {
       company: "PT Aneka Dasuib Jaya",
-      title: "Technical Lead - Full Stack Developer",
+      title: "Tech Lead - Full Stack Developer",
       date: "Aug 2023 - Dec 2024",
       icon: (
         <BriefcaseBusiness className="h-6 w-6 text-gray-500 dark:text-white" />
@@ -22,7 +22,7 @@ const ExperienceSection = () => {
     },
     {
       company: "PT Latifah Medika Alkesindo",
-      title: "Staff - IT Support",
+      title: "IT Support",
       date: "Feb 2023 - July 2023",
       icon: (
         <BriefcaseBusiness className="h-6 w-6 text-gray-500 dark:text-white" />
@@ -30,7 +30,7 @@ const ExperienceSection = () => {
     },
     {
       company: "CV Berdaring Indonesia",
-      title: "Staff - Full Stack Developer",
+      title: "Full Stack Developer",
       date: "Jan 2022 - Feb 2023",
       location: "Hybrid",
       icon: (
@@ -39,7 +39,7 @@ const ExperienceSection = () => {
     },
     {
       company: "PT Dessa Integrasi Globalindo",
-      title: "Staff - Web Developer",
+      title: "Web Developer",
       date: "Jan 2021 - Dec 2021",
       location: "Work From Home",
       icon: (
