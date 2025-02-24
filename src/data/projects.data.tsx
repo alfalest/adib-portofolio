@@ -15,6 +15,7 @@ import {
   SiPhp,
   SiQuarkus,
   SiApachekafka,
+  SiTailwindcss,
 } from "react-icons/si";
 import { FaCss3Alt, FaHtml5, FaLaravel, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 import { RiEarthLine } from "react-icons/ri";
@@ -56,7 +57,7 @@ const techStack1: TechStackIcon[] = [
     icon: <FaNodeJs className="text-green-600" />,
   },
   { name: "ReactJS", icon: <FaReact className="text-blue-600" /> },
-  { name: "Tailwind CSS", icon: <DiBootstrap className="text-purple-500" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "Kafka", icon: <SiApachekafka className="dark:text-white text-dark" /> },
   { name: "PostGreSQL", icon: <BiLogoPostgresql className="text-blue-700" /> },
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
