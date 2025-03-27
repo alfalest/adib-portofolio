@@ -4,7 +4,7 @@ import WorkExperience from "./components/works.experience";
 const ExperienceSection = () => {
   const workExperiences = [
     {
-      company: "PT Heiszco Atarasindo",
+      company: "PT Amertha Gracia",
       title: "Full Time - Full Stack Developer",
       date: "Feb 2025 - Present",
       icon: (
