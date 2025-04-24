@@ -17,6 +17,7 @@ import {
   SiQuarkus,
   SiApachekafka,
   SiTailwindcss,
+  SiJson
 } from "react-icons/si";
 import { FaCss3Alt, FaHtml5, FaLaravel, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 import { RiEarthLine } from "react-icons/ri";
@@ -143,6 +144,7 @@ const techStack7: TechStackIcon[] = [
 const techStack8: TechStackIcon[] = [
   { name: "Laravel", icon: <FaLaravel className="text-red-600" /> },
   { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
+  { name: "JSON", icon: <SiJson className="text-black" /> },
   { name: "jQuery", icon: <SiJquery className="text-blue-500" /> },
   { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
   {
@@ -168,7 +170,7 @@ export const projects: Project[] = [
   {
     title: "Cryosmart Cryogenic Tank Monitoring",
     description:
-      "The Cryosmart Project is designed to monitor our clients' ISO tanks using specialized IoT technology developed exclusively for them. The system works by configuring the IoT address upon ISO tank installation, taking into account key parameters such as tank volume, liquid usage, tank density, and tank height. These data points are then transmitted in JSON format to the Cryosmart application.",
+      "The Cryosmart Project is designed to monitor our clients' ISO tanks using specialized IoT technology developed exclusively for them. The system works by configuring the IoT address upon ISO tank installation, taking into account key parameters such as tank volume, liquid usage, tank density, and tank height.",
     img: Cryosmart,
     techStack: techStack8,
     portfolioUrl: "https://cryosmart.id/login",
