@@ -15,7 +15,7 @@ const ProjectsPage: React.FC = () => {
       <TitleSection title="Projects" />
       {isProjectsRoute && (
         <p className="mb-2 mt-6 font-mono text-xl text-zinc-600 dark:text-zinc-300">
-          A professional showcase of my expertise and accomplishments in web development.
+          A professional showcase of my expertise and accomplishments in Full Stack Developer.
         </p>
       )}
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

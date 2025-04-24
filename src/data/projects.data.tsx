@@ -9,6 +9,7 @@ import Ssayomart from "@/assets/projects/Ssayomart.png";
 import SsayomartCp from "@/assets/projects/SsayomartCp.png";
 import Boga from "@/assets/projects/Boga.png";
 import Alhijaz from "@/assets/projects/Alhijaz.png";
+import Cryosmart from "@/assets/projects/Cryosmart.png";
 import {
   SiCodeigniter,
   SiJquery,
@@ -139,6 +140,20 @@ const techStack7: TechStackIcon[] = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
 ];
 
+const techStack8: TechStackIcon[] = [
+  { name: "Laravel", icon: <FaLaravel className="text-red-600" /> },
+  { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
+  { name: "jQuery", icon: <SiJquery className="text-blue-500" /> },
+  { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
+  {
+    name: "JavaScript",
+    icon: <BiLogoJavascript className="text-yellow-600" />,
+  },
+  { name: "Bootstrap", icon: <DiBootstrap className="text-purple-500" /> },
+  { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+];
+
 // Array of projects
 export const projects: Project[] = [
   {
@@ -148,6 +163,17 @@ export const projects: Project[] = [
     img: Scada,
     techStack: techStack1,
     portfolioUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7287086785950633984/",
+  },
+
+  {
+    title: "Cryosmart Cryogenic Tank Monitoring",
+    description:
+      "The Cryosmart Project is designed to monitor our clients' ISO tanks using specialized IoT technology developed exclusively for them. The system works by configuring the IoT address upon ISO tank installation, taking into account key parameters such as tank volume, liquid usage, tank density, and tank height. These data points are then transmitted in JSON format to the Cryosmart application.",
+    img: Cryosmart,
+    techStack: techStack8,
+    portfolioUrl: "https://cryosmart.id/login",
+    githubUrl:
+      "#",
   },
 
   {
