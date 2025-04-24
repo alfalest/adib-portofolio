@@ -168,9 +168,9 @@ export const projects: Project[] = [
   },
 
   {
-    title: "Cryosmart Cryogenic Tank Monitoring",
+    title: "Cryosmart Monitoring",
     description:
-      "The Cryosmart Project is designed to monitor our clients' ISO tanks using specialized IoT technology developed exclusively for them. The system works by configuring the IoT address upon ISO tank installation, taking into account key parameters such as tank volume, liquid usage, tank density, and tank height.",
+      "The Cryosmart Cryogenic Tank Monitoring project is designed to monitor our clients ISO tanks using specialized IoT technology developed exclusively for them. The system works by configuring the IoT address upon ISO tank installation, taking into account key parameters such as tank volume, liquid usage, density, temperature, percentage, pressure, location, and etc.",
     img: Cryosmart,
     techStack: techStack8,
     portfolioUrl: "https://cryosmart.id/login",
