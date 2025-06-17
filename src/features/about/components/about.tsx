@@ -15,7 +15,7 @@ const About: React.FC = () => {
         </p>
         <a
           className="mt-2 inline-flex text-gray-600 underline hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
-          href="https://drive.google.com/file/d/1UuLb7U2M8PtKjFFr42Dbo_NMzHVtEV9h/view?usp=sharing"
+          href="https://drive.google.com/file/d/1GhtiH7jVTX20UUiJ811S2RBFE6W4S6T3/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
