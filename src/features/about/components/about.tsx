@@ -11,7 +11,7 @@ const About: React.FC = () => {
           Muhammad Adib Alfaini Afifi
         </h1>
         <p className="mt-2 text-gray-600 dark:text-gray-400">
-          Full-stack Dev • Tech Enthusiast • Making life easier through the magic of technology ☕
+          Hi there! I'm a Full Stack Developer with a passion for building high quality, user centric applications. I'm proficient in a range of modern frameworks like Laravel, Codeigniter, Express JS, Nest JS, Vue JS, and React JS, and possess strong front-end and back-end development skills. I'm always eager to learn and contribute to innovative projects. Feel free to connect!
         </p>
         <a
           className="mt-2 inline-flex text-gray-600 underline hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
