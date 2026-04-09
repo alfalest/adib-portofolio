@@ -8,8 +8,9 @@ import {
   SiPhp,
   SiCodeigniter,
   // SiExpress,
-  SiReact,
-  SiVuedotjs
+  // SiReact,
+  SiNextdotjs,
+  // SiVuedotjs
   // SiQuarkus,
 } from "react-icons/si";
 import {
@@ -31,8 +32,8 @@ const techStack = [
   // { name: "Quarkus", icon: <SiQuarkus className="text-blue-600" /> },
   { name: "PostGreSQL", icon: <BiLogoPostgresql className="text-blue-700" /> },
   { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
-  { name: "ReactJS", icon: <SiReact className="text-blue-600" /> },
-  { name: "VueJS", icon: <SiVuedotjs className="text-teal-600" /> },
+  { name: "NextJS", icon: <SiNextdotjs className="dark:text-white text-dark" /> },
+  // { name: "VueJS", icon: <SiVuedotjs className="text-teal-600" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "Bootstrap", icon: <SiBootstrap className="text-purple-400" /> },
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
