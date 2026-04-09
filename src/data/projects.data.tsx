@@ -10,6 +10,7 @@ import SsayomartCp from "@/assets/projects/SsayomartCp.png";
 import Boga from "@/assets/projects/Boga.png";
 import Alhijaz from "@/assets/projects/Alhijaz.png";
 import Cryosmart from "@/assets/projects/Cryosmart.png";
+import Salestrack from "@/assets/projects/Salestrack.png";
 import {
   SiCodeigniter,
   SiJquery,
@@ -17,7 +18,8 @@ import {
   SiQuarkus,
   SiApachekafka,
   SiTailwindcss,
-  SiJson
+  SiJson,
+  SiAlpinedotjs
 } from "react-icons/si";
 import { FaCss3Alt, FaHtml5, FaLaravel, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 import { RiEarthLine } from "react-icons/ri";
@@ -156,6 +158,20 @@ const techStack8: TechStackIcon[] = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
 ];
 
+const techStack9: TechStackIcon[] = [
+  { name: "Laravel", icon: <FaLaravel className="text-red-600" /> },
+  { name: "PHP", icon: <SiPhp className="text-indigo-500" /> },
+  { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
+  { name: "AlpineJS", icon: <SiAlpinedotjs className="text-green-500" /> },
+  {
+    name: "JavaScript",
+    icon: <BiLogoJavascript className="text-yellow-600" />,
+  },
+  { name: "Tailwind CSS", icon: <DiBootstrap className="text-purple-500" /> },
+  { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+];
+
 // Array of projects
 export const projects: Project[] = [
   {
@@ -168,12 +184,23 @@ export const projects: Project[] = [
   },
 
   {
-    title: "Cryosmart Monitoring",
+    title: "Sales Track",
+    description:
+      "Enterprise CRM system to manage customer data, sales activities, and internal workflows. Implemented real time live chat between Sales and Manager, secure role-based access control (RBAC), responsive dashboards, and scalable APIs to support multi-department operations.",
+    img: Salestrack,
+    techStack: techStack9,
+    portfolioUrl: "https://salestrack.id",
+    githubUrl:
+      "#",
+  },
+
+  {
+    title: "CryoSmart",
     description:
       "The Cryosmart Cryogenic Tank Monitoring project is designed to monitor our clients ISO tanks using specialized IoT technology developed exclusively for them. The system works by configuring the IoT address upon ISO tank installation, taking into account key parameters such as tank volume, liquid usage, density, temperature, percentage, pressure, location, and etc.",
     img: Cryosmart,
     techStack: techStack8,
-    portfolioUrl: "https://cryosmart.id/login",
+    portfolioUrl: "https://cryosmart.id",
     githubUrl:
       "#",
   },

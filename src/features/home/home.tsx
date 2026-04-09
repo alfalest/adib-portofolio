@@ -1,10 +1,11 @@
 import Hero from "@/features/home/components/hero";
 import ExperienceSection from "@/features/work";
 import ProjectsPage from "@/features/projetcs";
+import ContactSection from "@/features/home/components/contact";
 
 export default function Home() {
   return (
-    <div>
+    <div className="space-y-20">
       <Hero
         title="Adib Alfaini"
         jobTitle="Full Stack Developer"
@@ -18,6 +19,7 @@ export default function Home() {
 
       <ProjectsPage />
       <ExperienceSection />
+      <ContactSection />
     </div>
   );
 }

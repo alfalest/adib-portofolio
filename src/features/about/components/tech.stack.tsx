@@ -1,7 +1,7 @@
 import { BiLogoPostgresql } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 import {
-  // SiTailwindcss,
+  SiTailwindcss,
   SiJavascript,
   SiBootstrap,
   SiNestjs,
@@ -33,7 +33,7 @@ const techStack = [
   { name: "MySQL", icon: <GrMysql className="text-blue-700" /> },
   { name: "ReactJS", icon: <SiReact className="text-blue-600" /> },
   { name: "VueJS", icon: <SiVuedotjs className="text-teal-600" /> },
-  // { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "Bootstrap", icon: <SiBootstrap className="text-purple-400" /> },
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
   { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },

@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
+import { motion } from "framer-motion";
 
 interface HeroProps {
   title?: string;
@@ -18,14 +19,16 @@ const SocialIcon: React.FC<{ href: string; Icon: React.ElementType }> = ({
   href,
   Icon,
 }) => (
-  <a
+  <motion.a
+    whileHover={{ y: -3, scale: 1.1 }}
+    whileTap={{ scale: 0.95 }}
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center justify-center gap-2 text-gray-500 transition-colors duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:text-blue-500"
+    className="flex items-center justify-center text-gray-500 transition-colors duration-200 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
   >
-    <Icon className="ml-2 text-3xl" />
-  </a>
+    <Icon className="text-3xl" />
+  </motion.a>
 );
 
 const Hero: React.FC<HeroProps> = ({
@@ -34,25 +37,63 @@ const Hero: React.FC<HeroProps> = ({
   subtitle = "I'm a Full Stack Developer",
   socialLinks = {
     github: "https://github.com/alfalest",
-    instagram: "https://instagram.com/justalfaini",
+    instagram: "https://instagram.com/dibalfafi",
     linkedin: "https://linkedin.com/in/adibalfaini",
   },
 }) => {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+  };
+
   return (
-    <div className="flex flex-col justify-start space-y-4">
-      <h1 className="font-mono text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 md:text-5xl">
-        Hi!, You can call me{" "}
-        <span className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+    <motion.div
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      className="flex flex-col justify-center min-h-[60vh] py-20"
+    >
+      <motion.p
+        variants={itemVariants}
+        className="text-blue-600 dark:text-blue-400 font-mono font-medium mb-4"
+      >
+        Hi there! You can call me
+      </motion.p>
+
+      <motion.h1
+        variants={itemVariants}
+        className="text-5xl font-extrabold tracking-tight text-zinc-800 dark:text-zinc-100 md:text-7xl lg:text-8xl mb-6"
+      >
+        <span className="text-gradient">
           {title}
         </span>
-      </h1>
-      <p className="dark:text-zinc-390 mt-6 text-base text-zinc-600">
+      </motion.h1>
+
+      <motion.h2
+        variants={itemVariants}
+        className="text-2xl font-semibold text-zinc-700 dark:text-zinc-300 md:text-3xl mb-4"
+      >
         {jobTitle}
-      </p>
-      <p className="dark:text-zinc-390 mt-6 font-mono text-xl text-zinc-600">
+      </motion.h2>
+
+      <motion.p
+        variants={itemVariants}
+        className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed mb-10"
+      >
         {subtitle}
-      </p>
-      <div className="mt-6 flex">
+      </motion.p>
+
+      <motion.div variants={itemVariants} className="flex items-center gap-6">
         {socialLinks.github && (
           <SocialIcon href={socialLinks.github} Icon={FaSquareGithub} />
         )}
@@ -62,8 +103,8 @@ const Hero: React.FC<HeroProps> = ({
         {socialLinks.instagram && (
           <SocialIcon href={socialLinks.instagram} Icon={RiInstagramFill} />
         )}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
