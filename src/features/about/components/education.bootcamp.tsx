@@ -21,7 +21,7 @@ const EducationAndBootcamps: React.FC = () => {
         "#",
     },
     {
-      name: "Professional Programme",
+      name: "CEP-CCIT Faculty of Engineering, University of Indonesia",
       startDate: "September 2021",
       endDate: "N/A",
       learnedSkills: [
