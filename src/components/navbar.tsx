@@ -28,7 +28,7 @@ export default function Navbar() {
             className="text-xl font-bold tracking-tight"
           >
             <NavLink to="/">
-              <span className="text-gradient">Muhammad Adib Alfaini Afifi</span>
+              <span className="text-gradient">Alfaini.</span>
             </NavLink>
           </motion.div>
 
