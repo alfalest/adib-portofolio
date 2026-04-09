@@ -13,7 +13,7 @@ export default function Home() {
         socialLinks={{
           github: "https://github.com/alfalest",
           linkedin: "https://www.linkedin.com/in/adibalfaini/",
-          instagram: "https://www.instagram.com/justalfaini/",
+          instagram: "https://www.instagram.com/dibalfafi/",
         }}
       />
 
