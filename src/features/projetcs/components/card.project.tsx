@@ -38,7 +38,7 @@ const CardProject: React.FC<CardProjectProps> = ({
         className="glass-card flex h-full flex-col overflow-hidden rounded-xl transition-all duration-300"
       >
         {/* Image section with overlay on hover */}
-        <div 
+        <div
           className="relative h-48 overflow-hidden group cursor-pointer"
           onClick={() => setIsOpen(true)}
         >
