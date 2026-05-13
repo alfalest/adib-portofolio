@@ -11,6 +11,7 @@ import Boga from "@/assets/projects/Boga.png";
 import Alhijaz from "@/assets/projects/Alhijaz.png";
 import Cryosmart from "@/assets/projects/Cryosmart.png";
 import Salestrack from "@/assets/projects/Salestrack.png";
+import Nine from "@/assets/projects/911Consultant.png";
 import {
   SiCodeigniter,
   SiJquery,
@@ -19,7 +20,8 @@ import {
   SiApachekafka,
   SiTailwindcss,
   SiJson,
-  SiAlpinedotjs
+  SiAlpinedotjs,
+  SiNextdotjs
 } from "react-icons/si";
 import { FaCss3Alt, FaHtml5, FaLaravel, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 import { RiEarthLine } from "react-icons/ri";
@@ -172,6 +174,17 @@ const techStack9: TechStackIcon[] = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
 ];
 
+const techStack10: TechStackIcon[] = [
+  { name: "NextJS", icon: <SiNextdotjs className="dark:text-white text-dark" /> },
+  { name: "ReactJS", icon: <FaReact className="text-blue-600" /> },
+  {
+    name: "JavaScript",
+    icon: <BiLogoJavascript className="text-yellow-600" />,
+  },
+  { name: "CSS", icon: <FaCss3Alt className="text-sky-500" /> },
+  { name: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
+];
+
 // Array of projects
 export const projects: Project[] = [
   {
@@ -215,6 +228,7 @@ export const projects: Project[] = [
     githubUrl:
       "https://github.com/alfalest/javasuperfood-supply-chain",
   },
+
   {
     title: "Ssayomart E-Commerce",
     description:
@@ -224,6 +238,7 @@ export const projects: Project[] = [
     portfolioUrl: "https://ssayomart.com/",
     githubUrl: "https://github.com/alfalest/ssayomart",
   },
+
   {
     title: "Sipdesa App",
     description:
@@ -234,6 +249,18 @@ export const projects: Project[] = [
     githubUrl:
       "https://github.com/alfalest/system-village-integration",
   },
+
+  {
+    title: "911 Consulting Company Profile",
+    description:
+      "Developed a modern company profile website for PT TAN using Next.js, focused on delivering a premium digital experience with smooth animations, responsive design, and optimized performance. Built with a clean UI approach, cinematic motion interactions, and scalable frontend architecture to create a professional yet engaging brand presence across all devices.",
+    img: Nine,
+    techStack: techStack10,
+    portfolioUrl: "https://comprof-pt-tan.vercel.app/",
+    githubUrl:
+      "#",
+  },
+
   {
     title: "Ssayomart Company Profile",
     description:
@@ -244,6 +271,7 @@ export const projects: Project[] = [
     githubUrl:
       "https://github.com/alfalest/ssayomart-company-profile",
   },
+
   {
     title: "Boga Eterna Company Profile",
     description:
