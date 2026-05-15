@@ -203,8 +203,8 @@ export const projects: Project[] = [
     img: Salestrack,
     techStack: techStack9,
     portfolioUrl: "https://salestrack.id",
-    githubUrl:
-      "#",
+    // githubUrl:
+    //   "#",
   },
 
   {
@@ -214,8 +214,8 @@ export const projects: Project[] = [
     img: Cryosmart,
     techStack: techStack8,
     portfolioUrl: "https://cryosmart.id",
-    githubUrl:
-      "#",
+    // githubUrl:
+    //   "#",
   },
 
   {
@@ -225,8 +225,8 @@ export const projects: Project[] = [
     img: JsfSupplyChain,
     techStack: techStack2,
     portfolioUrl: "https://jsf-supplychain.cloud",
-    githubUrl:
-      "https://github.com/alfalest/javasuperfood-supply-chain",
+    // githubUrl:
+    //   "https://github.com/alfalest/javasuperfood-supply-chain",
   },
 
   {
@@ -236,7 +236,7 @@ export const projects: Project[] = [
     img: Ssayomart,
     techStack: techStack3,
     portfolioUrl: "https://ssayomart.com/",
-    githubUrl: "https://github.com/alfalest/ssayomart",
+    // githubUrl: "https://github.com/alfalest/ssayomart",
   },
 
   {
@@ -257,8 +257,8 @@ export const projects: Project[] = [
     img: Nine,
     techStack: techStack10,
     portfolioUrl: "https://comprof-pt-tan.vercel.app/",
-    githubUrl:
-      "#",
+    // githubUrl:
+    //   "#",
   },
 
   {
@@ -268,8 +268,8 @@ export const projects: Project[] = [
     img: SsayomartCp,
     techStack: techStack5,
     portfolioUrl: "https://ssayomart.com",
-    githubUrl:
-      "https://github.com/alfalest/ssayomart-company-profile",
+    // githubUrl:
+    //   "https://github.com/alfalest/ssayomart-company-profile",
   },
 
   {
@@ -278,9 +278,9 @@ export const projects: Project[] = [
       "An company profile for PT Boga Eterna Sentosa",
     img: Boga,
     techStack: techStack6,
-    portfolioUrl: "#",
-    githubUrl:
-      "https://github.com/alfalest/boga-eterna-sentosa",
+    portfolioUrl: "https://boga.vercel.app/",
+    // githubUrl:
+    //   "#",
   },
   {
     title: "Al-Hijaz Company Profile",
@@ -289,8 +289,8 @@ export const projects: Project[] = [
     img: Alhijaz,
     techStack: techStack7,
     portfolioUrl: "https://daftarumrohberkah.com",
-    githubUrl:
-      "https://github.com/alfalest/alhijaz-company-profile",
+    // githubUrl:
+    //   "https://github.com/alfalest/alhijaz-company-profile",
   },
   // Add more projects as needed
 ];
