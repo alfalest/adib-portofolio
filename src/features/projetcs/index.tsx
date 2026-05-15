@@ -2,6 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import CardProject from "./components/card.project";
 import TitleSection from "@/components/title.section";
+import ProjectGreeting from "./components/project-greeting";
 import { projects } from "@/data/projects.data";
 
 const ProjectsPage: React.FC = () => {
@@ -13,6 +14,7 @@ const ProjectsPage: React.FC = () => {
   return (
     <div className="mt-10">
       <TitleSection title="Projects" />
+      <ProjectGreeting />
       {isProjectsRoute && (
         <p className="mb-2 mt-6 font-mono text-xl text-zinc-600 dark:text-zinc-300">
           A professional showcase of my expertise and accomplishments in Full Stack Developer.
