@@ -15,7 +15,7 @@ interface HeroProps {
   };
 }
 
-const SocialIcon: React.FC<{ href: string; Icon: React.ElementType }> = ({
+const SocialIcon: React.FC<{ href: string; Icon: React.ComponentType<{ className?: string }> }> = ({
   href,
   Icon,
 }) => (
